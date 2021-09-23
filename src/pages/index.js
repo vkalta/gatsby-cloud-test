@@ -5,10 +5,9 @@ import Layout from '../components/layout';
 export default function Home({ data }) {
   console.log('data--->', JSON.stringify(data));
   const blog = data.allContentstackBlog.edges;
-  console.log('blog--->', blog);
   return (
     <Layout>
-      <h1>Hi, Im building a fake Gatsby site as part of a tutorial</h1>
+      <h1>Hello world</h1>
       <div style={{width:'500px', height:'100px', background: 'yellow'}}>
         {blog.map((el, i) => {
           const { node } = el;

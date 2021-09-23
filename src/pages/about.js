@@ -3,9 +3,7 @@ import { graphql } from "gatsby";
 import Layout from '../components/layout';
 
 export default function About({ data }) {
-  console.log('data--->', JSON.stringify(data));
   const blog = data.allContentstackBlog.edges;
-  console.log('blog--->', blog);
   return (
     <Layout>
       <h1>Replica of index</h1>
