@@ -31,7 +31,7 @@ module.exports = {
         delivery_token: process.env.CONTENTSTACK_DELIVERY_TOKEN_PROD,
         environment: process.env.CONTENTSTACK_ENVIRONMENT_PROD,
         // cdn: process.env.CONTENTSTACK_CDN,
-        expediteBuild: false,
+        expediteBuild: true,
         enableSchemaGeneration: true,
         type_prefix: 'Contentstack'
       }
