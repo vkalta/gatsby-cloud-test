@@ -28,7 +28,7 @@ module.exports = {
         // delivery_token: process.env.CONTENTSTACK_DELIVERY_TOKEN_PELLA,
         // environment: process.env.CONTENTSTACK_ENVIRONMENT_PELLA,
         cdn: process.env.CONTENTSTACK_CDN,
-        expediteBuild: true,
+        expediteBuild: false,
         enableSchemaGeneration: true,
         type_prefix: 'Contentstack'
       }
