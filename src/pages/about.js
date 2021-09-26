@@ -33,15 +33,6 @@ export const pageQuery = graphql`{
       node {
         owner {
           author_name
-          birth_place
-          online_references {
-            links {
-              title
-            }
-            pdf {
-              title
-            }
-          }
         }
         authors {
           first_name
